@@ -55,7 +55,7 @@ test.group('Provider', (group) => {
   })
 
   test('BullProvider', async (assert) => {
-    assert.isDefined(ioc.use('Rocketseat/Bull'))
-    assert.isTrue(ioc._bindings['Rocketseat/Bull'].singleton)
+    assert.isDefined(ioc.use('Rocketseat/Bullv5'))
+    assert.isTrue(ioc._bindings['Rocketseat/Bullv5'].singleton)
   })
 })
